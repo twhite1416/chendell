@@ -6,39 +6,33 @@ html {
   overflow: hidden;
 }
 
-.home-col {
+.positioning {
+  position: fixed;
   color: #24ac69;
-  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-  .positioning {
-    position: relative;
-    margin-top: 20%;
+h1 {
+  font-size: 5rem;
+  font-weight: 500;
+}
 
-    @include media-breakpoint-up(md) {
-      margin-top: 120%;
-    }
-  }
+h2 {
+  font-size: 3rem;
+  font-weight: 400;
+}
 
-  h1 {
-    font-size: 5rem;
-    font-weight: 500;
-  }
+h3 {
+  margin-top: 3rem;
+  font-weight: 400;
+  color: $white;
+}
 
-  h2 {
-    font-size: 3rem;
-    font-weight: 400;
-  }
-
-  h3 {
-    margin-top: 3rem;
-    font-weight: 400;
-    color: $white;
-  }
-
-  p {
-    font-weight: 400;
-    color: $white;
-  }
+p {
+  font-weight: 400;
+  color: $white;
 }
 
 .vimeo-wrapper {
@@ -53,7 +47,7 @@ html {
 
   &::after {
     display: block;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     content: " ";
     left: 0;
     position: absolute;
