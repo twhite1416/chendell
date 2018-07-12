@@ -5,7 +5,7 @@
   <div>
     <img src="@asset('images/chendell_logo.png')" alt="Chendell" />
   </div>
-  <h3>Lorem Ipsum Dolor Sit Amet</h3>
+  <h3 class="text-uppercase">Lorem Ipsum Dolor Sit Amet</h3>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis lectus dolor.</p>
 
   <div class="row">
