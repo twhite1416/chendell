@@ -8,7 +8,7 @@
       "./scripts/customizer.js"
     ]
   },
-  "publicPath": "/app/themes/sage",
+  "publicPath": "/app/themes/chendell",
   "devUrl": "http://chendell.localhost",
   "proxyUrl": "http://localhost:7000",
   "cacheBusting": "[name]_[hash:8]",

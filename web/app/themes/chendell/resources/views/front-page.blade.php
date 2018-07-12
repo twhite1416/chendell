@@ -2,8 +2,9 @@
 
 @section('content')
 <div class="positioning">
-  <h1 class="text-uppercase">Chendell</h1>
-  <h2 class="text-uppercase">A Natural Warrior</h2>
+  <div>
+    <img src="@asset('images/chendell_logo.png')" alt="Chendell" />
+  </div>
   <h3>Lorem Ipsum Dolor Sit Amet</h3>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis lectus dolor.</p>
 
