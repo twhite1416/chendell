@@ -9,9 +9,9 @@ html {
 .positioning {
   position: fixed;
   color: #24ac69;
-  top: 50%;
+  top: 60%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(0, -50%);
 }
 
 h1 {
@@ -27,12 +27,12 @@ h2 {
 h3 {
   margin-top: 3rem;
   font-weight: 400;
-  color: $white;
+  color: #666;
 }
 
 p {
   font-weight: 400;
-  color: $white;
+  color: #666;
 }
 
 .vimeo-wrapper {
@@ -44,18 +44,6 @@ p {
   z-index: -1;
   pointer-events: none;
   overflow: hidden;
-
-  &::after {
-    display: block;
-    background-color: rgba(0, 0, 0, 0.7);
-    content: " ";
-    left: 0;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 2;
-  }
 }
 
 .vimeo-wrapper iframe {
