@@ -5,7 +5,7 @@
   <div>
     <img src="@asset('images/chendell_logo.png')" alt="Chendell" />
   </div>
-  <h3 class="text-uppercase">Nsture Has a New Hero</h3>
+  <h3 class="text-uppercase">Nature Has a New Hero</h3>
   <p>Be one of the first to discover CHENDELL: A Natural Warrior. Coming to book shelves Fall 2018.</p>
 
   <div class="row">
