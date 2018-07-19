@@ -5,8 +5,8 @@
   <div>
     <img src="@asset('images/chendell_logo.png')" alt="Chendell" />
   </div>
-  <h3 class="text-uppercase">Lorem Ipsum Dolor Sit Amet</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis lectus dolor.</p>
+  <h3 class="text-uppercase">Nsture Has a New Hero</h3>
+  <p>Be one of the first to discover CHENDELL: A Natural Warrior. Coming to book shelves Fall 2018.</p>
 
   <div class="row">
     <div class="col">
