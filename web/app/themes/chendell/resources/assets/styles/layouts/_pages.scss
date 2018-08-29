@@ -6,9 +6,16 @@ html {
   overflow: hidden;
 }
 
+body {
+  background-image: url('../images/chendell_poster.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .positioning {
   position: fixed;
-  color: #24ac69;
+  color: #fff;
   top: 60%;
   left: 50%;
   transform: translate(0, -50%);
@@ -31,12 +38,12 @@ h2 {
 h3 {
   margin-top: 3rem;
   font-weight: 400;
-  color: #666;
+  color: #fff;
 }
 
 p {
   font-weight: 400;
-  color: #666;
+  color: #fff;
 }
 
 .vimeo-wrapper {
